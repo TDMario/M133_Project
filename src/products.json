@@ -1,82 +1,106 @@
 [
     {
         "id": "001",
-        "productName": "Nektarinen gelb",
-        "specialOffer": 3.6,
-        "normalPrice": 5.2,
-        "imageName": "nektarinen.jpg",
-        "description": "Herkunft: Spanien"
+        "productName": "Einzelkarte Agent Hase",
+        "specialOffer": 2.9,
+        "normalPrice": 3.1,
+        "imageName": "agent_hase.jpg",
+        "description": "Stufe 7 Dienerkarte Agent Hase, Typ Wildtier, 5 Angriff, 1 Leben, 3 Schild, Mit Effekt"
     },
     {
         "id": "002",
-        "productName": "Rispentomaten",
-        "specialOffer": 2.65,
-        "normalPrice": 3.1,
-        "imageName": "tomaten.jpg",
-        "description": "Tomaten verfügen über einen hohen Gehalt an Vitamin C sowie Zucker und Mineralstoffen."
+        "productName": "Einzelkarte Dr. Echse",
+        "specialOffer": 1.75,
+        "normalPrice": 2.1,
+        "imageName": "drechse.jpg",
+        "description": "Stufe 7 Dienerkarte Dr. Echse, Typ Wildtier, 2 Angriff, 6 Leben, 2 Schild, Mit Effekt "
     },
     {
         "id": "003",
-        "productName": "Kalbs-Bratwürste",
-        "specialOffer": 8.25,
-        "normalPrice": 16.5,
-        "imageName": "kalbsbratwuerste.jpg",
-        "description": "Terra Suisse Kalbs-Bratwurst 3x2 Stück"
+        "productName": "Einzelkarte Fliegende Kamera",
+        "specialOffer": 2.25,
+        "normalPrice": 2.5,
+        "imageName": "fliegende_kamera.jpg",
+        "description": "Stufe 3 Dienerkarte Fliegende Kamera, 1 Angriff, 5 Leben, 1 Schild, Mit Effekt"
     },
     {
         "id": "004",
-        "productName": "Appenzeller Classic",
-        "specialOffer": 2.7,
-        "normalPrice": 3.45,
-        "imageName": "appenzeller.jpg",
-        "description": "Schweizer Halbhartkäse und  vollfett. aus Rohmilch"
+        "productName": "Einzelkarte Insekte",
+        "specialOffer": 5.7,
+        "normalPrice": 7.3,
+        "imageName": "insekte.jpg",
+        "description": "Stufe 3 Dienerkarte Insekte, Typ Wildtier, 0 Angriff, 2 Leben, 4 Schild, Schildträger"
     },
     {
         "id": "005",
-        "productName": "Eier",
-        "specialOffer": 4.5,
-        "normalPrice": 5.4,
-        "imageName": "eier.jpg",
-        "description": "9 Schweizer Eier aus Frilandhaltung"
+        "productName": "Einzelkarte Magisches Buch",
+        "specialOffer": 39.95,
+        "normalPrice": 49.95,
+        "imageName": "magisches_buch.jpg",
+        "description": "Stufe 6 Zauber Magisches Buch, mystischer Zauber"
     },
     {
         "id": "006",
-        "productName": "Krustenkranz",
-        "specialOffer": 2,
-        "normalPrice": 2.3,
-        "imageName": "krustenkranz.jpg",
-        "description": "Terra Suisse"
+        "productName": "Ritual der Stärkung",
+        "specialOffer": 119.95,
+        "normalPrice":  145.95,
+        "imageName": "ritual_der_staerkung.jpg",
+        "description": "Stufe 1 Zauber Ritual der Stärkung, werteverändernder Zauber"
     },
     {
         "id": "007",
-        "productName": "Magunm Almond",
-        "specialOffer": 7.9,
-        "normalPrice": 9.9,
-        "imageName": "vanille_glace.jpg",
-        "description": "Vanilleglace und Milchschokolade mit Mandeln"
+        "productName": "Speedy Echsales",
+        "specialOffer": 7.95,
+        "normalPrice": 11.65,
+        "imageName": "speedy_echsales.jpg",
+        "description": "Stufe 7 Dienerkarte Speedy Echsales, Typ Wildtier, 4 Angriff, 3 Leben, 1 Schild, Mit Effekt, Ansturm"
     },
     {
         "id": "008",
-        "productName": "Iced Green Tea",
-        "specialOffer": 7.5,
-        "normalPrice": 10.8,
-        "imageName": "icedtea.jpg",
-        "description": "AriZona Green Tea - Grünteegrtränk"
+        "productName": "Regeldossier",
+        "specialOffer": 9.5,
+        "normalPrice": 9.95,
+        "imageName": "regeldossier.jpg",
+        "description": "Regeldossier mit einer Übersicht, Regeln und Tipps"
     },
     {
         "id": "009",
-        "productName": "Senf",
-        "specialOffer": 2.7,
-        "normalPrice": 3.4,
-        "imageName": "senf.jpg",
-        "description": "Senf mild"
+        "productName": "Spielerklärung",
+        "specialOffer": 8.70,
+        "normalPrice": 8.95,
+        "imageName": "spielerklaerung.jpg",
+        "description": "Spielerklärung mit einem normalen Spiel Zug für Zug erklärt"
     },
     {
         "id": "010",
-        "productName": "Olivenöl",
-        "specialOffer": 14.35,
-        "normalPrice": 17.95,
-        "imageName": "olivenoel.jpg",
-        "description": "Bertolli Olivenöl extra vergine originale"
+        "productName": "Booster Pack x1",
+        "specialOffer": 4.50,
+        "normalPrice": 4.95,
+        "imageName": "booster_pack.jpg",
+        "description": "Ein Booster Pack der 2. Edition bestehend aus 5 zufälligen Karten der 2. Edition"
+    },
+    {
+        "id": "011",
+        "productName": "Booster Pack x10",
+        "specialOffer": 39.95,
+        "normalPrice": 49.95,
+        "imageName": "booster_pack_x10.jpg",
+        "description": "Zehn Boosterpacks der 2. Edition"
+    },
+    {
+        "id": "012",
+        "productName": "Dossierset",
+        "specialOffer": 15.95,
+        "normalPrice": 18.90,
+        "imageName": "regeldossier_spielerklaerung.jpg",
+        "description": "Ein Set bestehend aus dem Regeldossier und der Spielerklärung"
+    },
+    {
+        "id": "013",
+        "productName": "Weisser Leopard Sonderangebot",
+        "specialOffer": 49.95,
+        "normalPrice": 128.75,
+        "imageName": "sonderangebot.jpg",
+        "description": "Sonderangebot bestehend aus der Legendären Karte Weisser Leopard, 20 Booster Pack der 2. Edition, einem Regeldossier und einer Spielerklärung"
     }
 ]
