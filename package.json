@@ -1,0 +1,34 @@
+{
+  "name": "m133_project",
+  "version": "1.0.0",
+  "description": "Arbeitsauftrag zu Modul 133",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon src/server.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TDMario/M133_Project.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "ejs": "^3.0.1",
+    "express-ejs-layouts": "^2.5.0"
+  },
+  "devDependencies": {
+    "@types/chai": "4.2.5",
+    "@types/mocha": "5.2.7",
+    "@types/node": "^12.12.24",
+    "chai": "4.2.0",
+    "express": "^4.17.1",
+    "express-session": "^1.17.0",
+    "express-validator": "^6.3.1",
+    "mocha": "6.2.0",
+    "nodemon": "^2.0.2",
+    "ts-node": "8.5.2",
+    "typescript": "3.7.2"
+  },
+  "homepage": "https://github.com/TDMario/M133_Project#readme"
+}
