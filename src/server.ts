@@ -31,13 +31,4 @@ app.listen(port, () => {
     console.log(`server is running on port ${port}`);
 });
 
-/* Viewverlinkungen */
-
-// app.get("/", (req, res) => {
-//     res.sendFile(path.join(__direname, "/View/home.html"))
-// });
-
-// app.get("/detail", (req, res) => {
-//     res.sendFile(path.join(__direname, "/View/detail.html"))
-// });
 
