@@ -1,15 +1,28 @@
 import * as express from 'express';
+import * as products from './products.json';
 
 const router = express.Router();
 
 /* Viewverlinkungen */
 
 router.get("/", (req, res) => {
-    res.render('home');
+    res.render('home',
+    {
+        // Imports ins View
+        products: products
+    }
+    
+    );
 });
 
 router.get("/detail", (req, res) => {
-    res.render('detail');
+    res.render('detail',
+    {
+        // Imports ins View
+        products: products
+    }
+    
+    );
 });
 
 module.exports = router;
