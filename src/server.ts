@@ -26,6 +26,7 @@ app.use(expressLayouts);
 // Router setzen
 app.use('/', router);
 
+app.use(express.static(__dirname + '/others'))
 
 app.listen(port, () => {
     console.log(`server is running on port ${port}`);

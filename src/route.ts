@@ -1,5 +1,5 @@
 import * as express from 'express';
-import * as products from './products.json';
+import * as products from './others/json/products.json';
 
 const router = express.Router();
 
