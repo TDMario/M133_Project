@@ -1,1 +1,28 @@
 <%- contentFor('inner-view') %> 
+<h2>Unsere Produkte</h2>
+<div>
+    <% for(curProduct of products){%>
+        <a href="/detail/<%= curProduct.id %>">
+            <img src="/images/<%= curProduct.imageName %>">
+            <p>
+               <%= curProduct.productName %>
+               <br>
+               <Strong> <%= curProduct.specialOffer %> Franken </Strong> 
+               <br>
+               statt <span> <%= curProduct.normalPrice %> Franken</span> 
+            </p>
+        
+        
+        </a>
+
+
+    <% } %>
+
+
+
+
+
+
+
+
+</div>
