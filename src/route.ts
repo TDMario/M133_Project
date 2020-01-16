@@ -15,11 +15,14 @@ router.get("/", (req, res) => {
     );
 });
 
-router.get("/detail", (req, res) => {
+router.get("/detail/:id", (req, res) => {
+    const id = req.params.id;
+    const currentproduct = products.find(p => p.id.toString() === id);
     res.render('detail',
     {
         // Imports ins View
-        products: products
+        //products: products,
+        product: currentproduct
     }
     
     );
