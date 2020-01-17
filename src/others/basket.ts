@@ -43,7 +43,7 @@ export class basket {
     public getAmmountOfItems() : Number {
         let itemAmmount = 0;
         this.products.forEach(function (value){
-            itemAmmount += value.ammount;
+            itemAmmount = itemAmmount + value.ammount;
         })
         return itemAmmount;
     }

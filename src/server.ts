@@ -8,20 +8,12 @@ import { basket } from './others/basket';
 
 const port = 8080;
 
-const products = [];
-
-
-
-
 const app = express();
-app.use(expressSession({
-    secret: "save",
-    resave: false,
-    saveUninitialized: true
-}));
+
+
 
 // Session
-app.set('trust proxy', 1);
+app.set('trusty proxy', 1);
 app.use(
     session(
         {
@@ -35,6 +27,17 @@ app.use(
         }
     )
 )
+
+
+
+
+
+app.use(expressSession({
+    secret: "save",
+    resave: false,
+    saveUninitialized: true
+}));
+
 
 // Zuständig für richtige darstellung von Daten
 app.use(express.urlencoded({ extended: true }));
