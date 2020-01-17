@@ -5,7 +5,8 @@
         "specialOffer": 2.9,
         "normalPrice": 3.1,
         "imageName": "agent_hase.jpg",
-        "description": "Stufe 7 Dienerkarte Agent Hase, Typ Wildtier, 5 Angriff, 1 Leben, 3 Schild, Mit Effekt"
+        "description": "Stufe 7 Dienerkarte Agent Hase, Typ Wildtier, 5 Angriff, 1 Leben, 3 Schild, Mit Effekt",
+        "amount": 0
     },
     {
         "id": "002",
@@ -13,7 +14,8 @@
         "specialOffer": 1.75,
         "normalPrice": 2.1,
         "imageName": "drechse.jpg",
-        "description": "Stufe 7 Dienerkarte Dr. Echse, Typ Wildtier, 2 Angriff, 6 Leben, 2 Schild, Mit Effekt "
+        "description": "Stufe 7 Dienerkarte Dr. Echse, Typ Wildtier, 2 Angriff, 6 Leben, 2 Schild, Mit Effekt ",
+        "amount": 0
     },
     {
         "id": "003",
@@ -21,7 +23,8 @@
         "specialOffer": 2.25,
         "normalPrice": 2.5,
         "imageName": "fliegende_kamera.jpg",
-        "description": "Stufe 3 Dienerkarte Fliegende Kamera, 1 Angriff, 5 Leben, 1 Schild, Mit Effekt"
+        "description": "Stufe 3 Dienerkarte Fliegende Kamera, 1 Angriff, 5 Leben, 1 Schild, Mit Effekt",
+        "amount": 0
     },
     {
         "id": "004",
@@ -29,7 +32,8 @@
         "specialOffer": 5.7,
         "normalPrice": 7.3,
         "imageName": "insekte.jpg",
-        "description": "Stufe 3 Dienerkarte Insekte, Typ Wildtier, 0 Angriff, 2 Leben, 4 Schild, Schildträger"
+        "description": "Stufe 3 Dienerkarte Insekte, Typ Wildtier, 0 Angriff, 2 Leben, 4 Schild, Schildträger",
+        "amount": 0
     },
     {
         "id": "005",
@@ -37,7 +41,8 @@
         "specialOffer": 39.95,
         "normalPrice": 49.95,
         "imageName": "magisches_buch.jpg",
-        "description": "Stufe 6 Zauber Magisches Buch, mystischer Zauber"
+        "description": "Stufe 6 Zauber Magisches Buch, mystischer Zauber",
+        "amount": 0
     },
     {
         "id": "006",
@@ -45,7 +50,8 @@
         "specialOffer": 119.95,
         "normalPrice":  145.95,
         "imageName": "ritual_der_staerkung.jpg",
-        "description": "Stufe 1 Zauber Ritual der Stärkung, werteverändernder Zauber"
+        "description": "Stufe 1 Zauber Ritual der Stärkung, werteverändernder Zauber",
+        "amount": 0
     },
     {
         "id": "007",
@@ -53,7 +59,8 @@
         "specialOffer": 7.95,
         "normalPrice": 11.65,
         "imageName": "speedy_echsales.jpg",
-        "description": "Stufe 7 Dienerkarte Speedy Echsales, Typ Wildtier, 4 Angriff, 3 Leben, 1 Schild, Mit Effekt, Ansturm"
+        "description": "Stufe 7 Dienerkarte Speedy Echsales, Typ Wildtier, 4 Angriff, 3 Leben, 1 Schild, Mit Effekt, Ansturm",
+        "amount": 0
     },
     {
         "id": "008",
@@ -61,7 +68,8 @@
         "specialOffer": 9.5,
         "normalPrice": 9.95,
         "imageName": "regeldossier.jpg",
-        "description": "Regeldossier mit einer Übersicht, Regeln und Tipps"
+        "description": "Regeldossier mit einer Übersicht, Regeln und Tipps",
+        "amount": 0
     },
     {
         "id": "009",
@@ -69,7 +77,8 @@
         "specialOffer": 8.70,
         "normalPrice": 8.95,
         "imageName": "spielerklaerung.jpg",
-        "description": "Spielerklärung mit einem normalen Spiel Zug für Zug erklärt"
+        "description": "Spielerklärung mit einem normalen Spiel Zug für Zug erklärt",
+        "amount": 0
     },
     {
         "id": "010",
@@ -77,7 +86,8 @@
         "specialOffer": 4.50,
         "normalPrice": 4.95,
         "imageName": "booster_pack.jpg",
-        "description": "Ein Booster Pack der 2. Edition bestehend aus 5 zufälligen Karten der 2. Edition"
+        "description": "Ein Booster Pack der 2. Edition bestehend aus 5 zufälligen Karten der 2. Edition",
+        "amount": 0
     },
     {
         "id": "011",
@@ -85,7 +95,8 @@
         "specialOffer": 39.95,
         "normalPrice": 49.95,
         "imageName": "booster_pack_x10.jpg",
-        "description": "Zehn Boosterpacks der 2. Edition"
+        "description": "Zehn Boosterpacks der 2. Edition",
+        "amount": 0
     },
     {
         "id": "012",
@@ -93,7 +104,8 @@
         "specialOffer": 15.95,
         "normalPrice": 18.90,
         "imageName": "regeldossier_spielerklaerung.jpg",
-        "description": "Ein Set bestehend aus dem Regeldossier und der Spielerklärung"
+        "description": "Ein Set bestehend aus dem Regeldossier und der Spielerklärung",
+        "amount": 0
     },
     {
         "id": "013",
@@ -101,6 +113,7 @@
         "specialOffer": 49.95,
         "normalPrice": 128.75,
         "imageName": "sonderangebot.jpg",
-        "description": "Sonderangebot bestehend aus der Legendären Karte Weisser Leopard, 20 Booster Pack der 2. Edition, einem Regeldossier und einer Spielerklärung"
+        "description": "Sonderangebot bestehend aus der Legendären Karte Weisser Leopard, 20 Booster Pack der 2. Edition, einem Regeldossier und einer Spielerklärung",
+        "amount": 0
     }
 ]

@@ -6,6 +6,10 @@ import * as router from './route';
 
 const port = 8080;
 
+const products = [];
+
+
+
 
 const app = express();
 app.use(expressSession({
