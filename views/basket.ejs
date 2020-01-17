@@ -1,1 +1,53 @@
 <%- contentFor('inner-view') %>
+
+<table>
+    <thead>
+        <tr>
+            <th>
+               Name    
+            </th>
+            <th>
+                Normalpreis   
+            </th>
+            <th>
+                Aktionspreis   
+            </th>
+            <th>
+                Anzahl   
+            </th>
+            <th>
+                Preis   
+            </th>
+
+        </tr>
+    </thead>
+    <tbody>
+        <% for (currentProduct of products) %>
+        <tr>
+            <td>
+                <a href="/detail/<%= currentProduct.id %>">
+                    <% currentProduct.Name %>                   
+                </a>    
+            </td>
+            <td>
+               CHF <% Number.parseFloat(currentProduct.normalPrice).toFixed(2) %> 
+            </td>
+            <td>
+                <% if(currentProduct.specialOffer != 0 ){ %>
+                    CHF <% Number.parseFloat(currentProduct.specialOffer).toFixed(2) %>
+                <% } %>    
+            </td>
+            <td>
+                <% currentProduct.amount %> 
+            </td>
+            <td>
+                <% if(currentProduct.specialOffer != 0 ){ %>
+                    CHF <% Number.parseFloat(currentProduct.specialOffer * currentProduct.amount).toFixed(2) %>
+                <% } else {%>
+                    CHF <% Number.parseFloat(currentProduct.normalPrice * currentProduct.amount).toFixed(2) %>
+                <% } %>    
+            </td>
+        </tr>
+    </tbody>
+</table>
+

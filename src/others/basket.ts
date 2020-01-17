@@ -2,7 +2,7 @@ export class basket {
     private products = [];
 
     public addProduct(newProduct){
-        newProduct.ammount++;
+        newProduct.amount++;
         if(this.products.find(p => p.id === newProduct.id) === null){
             this.products.push(newProduct);
         }
@@ -11,8 +11,8 @@ export class basket {
     public decreasedProduct(decreasedProduct){
         const currentProduct = this.products.find(p => p.id === decreasedProduct);
         if(currentProduct != null){
-            if(currentProduct.ammount >= 1){
-                currentProduct.ammount--;
+            if(currentProduct.amount >= 1){
+                currentProduct.amount--;
             }else{
                 this.deleteProduct(currentProduct);
             }
@@ -33,9 +33,9 @@ export class basket {
         let cost = 0.00;
         this.products.forEach(function (value){
             if(value.specialOffer === null){
-                cost = cost + ( value.specialOffer * value.ammount );
+                cost = cost + ( value.specialOffer * value.amount );
             }else{
-                cost = cost + (value.normalPrice * value.ammount )
+                cost = cost + (value.normalPrice * value.amount )
             }
         })
         return cost;
@@ -45,9 +45,9 @@ export class basket {
         let cost = 0;
         const currentProduct =this.products.find(p => p.id === positionId);
         if(currentProduct.specialOffer === 0) {
-            cost = currentProduct.ammount * currentProduct.normalPrice;
+            cost = currentProduct.amount * currentProduct.normalPrice;
         } else{
-        cost = currentProduct.ammount * currentProduct.specialOffer;
+        cost = currentProduct.amount * currentProduct.specialOffer;
         }
         return cost;
     }
@@ -56,7 +56,7 @@ export class basket {
     public getAmmountOfItems() : Number {
         let itemAmmount = 0;
         this.products.forEach(function (value){
-            itemAmmount = itemAmmount + value.ammount;
+            itemAmmount = itemAmmount + value.amount;
         })
         return itemAmmount;
     }
