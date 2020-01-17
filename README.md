@@ -17,3 +17,7 @@ Gegeben ist zusätzlich ein JSON File.
 ````
 - Folgender Link in beliebigen Webbrowser eingeben:
 <http://localhost:8080/>
+
+## NOTE:
+
+Aufgrund von problemen mit der Session werden keine Items für den Warenkorb angezeigt
