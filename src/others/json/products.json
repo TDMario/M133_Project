@@ -1,6 +1,6 @@
 [
     {
-        "id": "001",
+        "id": 1,
         "productName": "Einzelkarte Agent Hase",
         "specialOffer": 2.9,
         "normalPrice": 3.1,
@@ -9,7 +9,7 @@
         "amount": 0
     },
     {
-        "id": "002",
+        "id": 2,
         "productName": "Einzelkarte Dr. Echse",
         "specialOffer": 1.75,
         "normalPrice": 2.1,
@@ -18,7 +18,7 @@
         "amount": 0
     },
     {
-        "id": "003",
+        "id": 3,
         "productName": "Einzelkarte Fliegende Kamera",
         "specialOffer": 2.25,
         "normalPrice": 2.5,
@@ -27,7 +27,7 @@
         "amount": 0
     },
     {
-        "id": "004",
+        "id": 4,
         "productName": "Einzelkarte Insekte",
         "specialOffer": 5.7,
         "normalPrice": 7.3,
@@ -36,7 +36,7 @@
         "amount": 0
     },
     {
-        "id": "005",
+        "id": 5,
         "productName": "Einzelkarte Magisches Buch",
         "specialOffer": 39.95,
         "normalPrice": 49.95,
@@ -45,7 +45,7 @@
         "amount": 0
     },
     {
-        "id": "006",
+        "id": 6,
         "productName": "Ritual der Stärkung",
         "specialOffer": 119.95,
         "normalPrice":  145.95,
@@ -54,7 +54,7 @@
         "amount": 0
     },
     {
-        "id": "007",
+        "id": 7,
         "productName": "Speedy Echsales",
         "specialOffer": 7.95,
         "normalPrice": 11.65,
@@ -63,7 +63,7 @@
         "amount": 0
     },
     {
-        "id": "008",
+        "id": 8,
         "productName": "Regeldossier",
         "specialOffer": 9.5,
         "normalPrice": 9.95,
@@ -72,7 +72,7 @@
         "amount": 0
     },
     {
-        "id": "009",
+        "id": 9,
         "productName": "Spielerklärung",
         "specialOffer": 8.70,
         "normalPrice": 8.95,
@@ -81,7 +81,7 @@
         "amount": 0
     },
     {
-        "id": "010",
+        "id": 10,
         "productName": "Booster Pack x1",
         "specialOffer": 4.50,
         "normalPrice": 4.95,
@@ -90,7 +90,7 @@
         "amount": 0
     },
     {
-        "id": "011",
+        "id": 11,
         "productName": "Booster Pack x10",
         "specialOffer": 39.95,
         "normalPrice": 49.95,
@@ -99,7 +99,7 @@
         "amount": 0
     },
     {
-        "id": "012",
+        "id": 12,
         "productName": "Dossierset",
         "specialOffer": 15.95,
         "normalPrice": 18.90,
@@ -108,7 +108,7 @@
         "amount": 0
     },
     {
-        "id": "013",
+        "id": 13,
         "productName": "Weisser Leopard Sonderangebot",
         "specialOffer": 49.95,
         "normalPrice": 128.75,

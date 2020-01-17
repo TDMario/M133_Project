@@ -1,14 +1,16 @@
 export class basket {
     private products = [];
 
-    public addProduct(newProduct){
+    constructor() {}
+
+    public addProduct(newProduct) : void {
         newProduct.amount++;
         if(this.products.find(p => p.id === newProduct.id) === null){
             this.products.push(newProduct);
         }
     }
 
-    public decreasedProduct(decreasedProduct){
+    public decreasedProduct(decreasedProduct) : void {
         const currentProduct = this.products.find(p => p.id === decreasedProduct);
         if(currentProduct != null){
             if(currentProduct.amount >= 1){
@@ -20,7 +22,7 @@ export class basket {
         }
     }
 
-    public deleteProduct(delteableProductId){
+    public deleteProduct(delteableProductId) : void {
         const currentProductIndex =this.products.findIndex(p => p.id === delteableProductId);
         this.products.splice(currentProductIndex, 1);
     }
@@ -30,7 +32,7 @@ export class basket {
     }
 
     public getTotal() : Number {
-        let cost = 0.00;
+        let cost = 0;
         this.products.forEach(function (value){
             if(value.specialOffer === null){
                 cost = cost + ( value.specialOffer * value.amount );
