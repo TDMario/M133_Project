@@ -6,7 +6,7 @@ const router = express.Router();
 
 /* Viewverlinkungen */
 
-router.get("/", (req, res) => {
+router.get('/', (req, res) => {
     res.render('home',
     {
         // Imports ins View
@@ -17,7 +17,7 @@ router.get("/", (req, res) => {
     );
 });
 
-router.get("/detail/:id", (req, res) => {
+router.get('/detail/:id', (req, res) => {
     const id = req.params.id;
     const currentproduct = products.find(p => p.id.toString() === id);
     res.render('detail',
@@ -30,5 +30,11 @@ router.get("/detail/:id", (req, res) => {
     
     );
 });
+
+router.post('/detail/:id', (req, res) =>{    
+    req.session.cookie.basket.addProduct(products.find( p => p.id.toString() === req.params.id ));
+    res.redirect('/');
+})
+
 
 module.exports = router;
