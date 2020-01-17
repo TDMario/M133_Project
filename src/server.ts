@@ -3,6 +3,8 @@ import * as express from 'express';
 import * as expressLayouts from 'express-ejs-layouts';
 import * as expressSession from 'express-session';
 import * as router from './route';
+import * as session from 'express-Session';
+import { basket } from './others/basket';
 
 const port = 8080;
 
@@ -17,6 +19,22 @@ app.use(expressSession({
     resave: false,
     saveUninitialized: true
 }));
+
+// Session
+app.set('trust proxy', 1);
+app.use(
+    session(
+        {
+            secret: "Once Upon a time there were children, which had fun, which had spare time, which enjoyed living ... and then they went to school.",
+            saveUninitialized: true,
+            resave: false,
+            cookie: {
+                secure: true,
+                basket: new basket()
+            }
+        }
+    )
+)
 
 // Zuständig für richtige darstellung von Daten
 app.use(express.urlencoded({ extended: true }));
