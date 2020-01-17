@@ -23,7 +23,7 @@ router.get('/detail/:id', (req, res) => {
     res.render('detail',
     {
         // Imports ins View
-        //products: products,
+        products: products,
         product: currentproduct,
         totalProducts: req.session.cookie.basket.getAmmountOfItems()
     }
@@ -32,7 +32,7 @@ router.get('/detail/:id', (req, res) => {
 });
 
 router.get('/basket', (req, res) => {
-    res.render('detail',
+    res.render('basket',
     {
         // Imports ins View
         products: products,
