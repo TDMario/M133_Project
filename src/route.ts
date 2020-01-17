@@ -31,6 +31,18 @@ router.get('/detail/:id', (req, res) => {
     );
 });
 
+router.get('/basket', (req, res) => {
+    res.render('detail',
+    {
+        // Imports ins View
+        products: products,
+        totalProducts: req.session.cookie.basket.getAmmountOfItems(),
+        total: req.session.cookie.basket.getTotal()
+    }
+    
+    );
+})
+
 router.post('/detail/:id', (req, res) =>{    
     req.session.cookie.basket.addProduct(products.find( p => p.id.toString() === req.params.id ));
     res.redirect('/');

@@ -29,7 +29,7 @@ export class basket {
         return this.products.length;
     }
 
-    public getCost() : Number {
+    public getTotal() : Number {
         let cost = 0.00;
         this.products.forEach(function (value){
             if(value.specialOffer === null){
@@ -40,6 +40,19 @@ export class basket {
         })
         return cost;
     }
+
+    public getTotalForOnePosition(positionId) : Number {
+        let cost = 0;
+        const currentProduct =this.products.find(p => p.id === positionId);
+        if(currentProduct.specialOffer === 0) {
+            cost = currentProduct.ammount * currentProduct.normalPrice;
+        } else{
+        cost = currentProduct.ammount * currentProduct.specialOffer;
+        }
+        return cost;
+    }
+
+
     public getAmmountOfItems() : Number {
         let itemAmmount = 0;
         this.products.forEach(function (value){
