@@ -1,0 +1,17 @@
+<%- contentFor('inner-view') %> 
+<h2> Einkauf Abschliessen</h2>
+
+
+
+<form action="/checkout" method="POST">
+    <label> Vorname </label>
+    <input type="text" name="vorname" required="true"> 
+    <br>
+    <label> Nachname </label>
+    <input type="text" name="nachname" required="true">
+    <br>
+    <label> E-Mail </label>
+    <input type="email" name="email" required="true">
+    <br>
+    <button id="payAndCheckOut" type="submit">Kostenpflichtig Kaufen</button>
+</form>

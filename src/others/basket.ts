@@ -61,4 +61,8 @@ export class basket {
         return itemAmmount;
     }
 
+    public clearBasket() {
+        this.products = [];
+    }
+
 }

@@ -43,8 +43,24 @@ router.get('/basket', (req, res) => {
     );
 })
 
+router.get('/checkout', (req, res) => {
+    res.render('checkout',
+    {
+        // Imports ins View
+        products: products,
+        totalProducts: req.session.cookie.basket.getAmmountOfItems()
+    }
+    
+    );
+})
+
 router.post('/detail/:id', (req, res) =>{    
     req.session.cookie.basket.addProduct(products.find( p => p.id.toString() === req.params.id ));
+    res.redirect('/');
+})
+
+router.post('/checkout', (req,res) => {
+    req.session.cookie.basket.clearBasket();
     res.redirect('/');
 })
 
