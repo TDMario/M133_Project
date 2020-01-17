@@ -3,13 +3,15 @@ import * as products from './others/json/products.json';
 
 const router = express.Router();
 
+
 /* Viewverlinkungen */
 
 router.get("/", (req, res) => {
     res.render('home',
     {
         // Imports ins View
-        products: products
+        products: products,
+        totalProducts: req.session.cookie.basket.getAmmountOfItems()
     }
     
     );
@@ -22,7 +24,8 @@ router.get("/detail/:id", (req, res) => {
     {
         // Imports ins View
         //products: products,
-        product: currentproduct
+        product: currentproduct,
+        totalProducts: req.session.cookie.basket.getAmmountOfItems()
     }
     
     );
